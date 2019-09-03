@@ -97,15 +97,15 @@ header .logo {
     margin: 28px 0 0 91px;
 }
 
-/* Call To Action (CTA) Styles */
+/* Call To Action (action) Styles */
 
-.cta {
+.action {
     display: flex;
     margin-top: 72px;
     justify-content: flex-end;
 }
 
-.cta .cta-text {
+.action .aText {
     font-size: 72px;
     text-align: center;
     letter-spacing: 5px;
@@ -116,7 +116,7 @@ header .logo {
     margin: 0 82px 0 0;
 }
 
-.cta .cta-text button {
+.action .aText button {
     border: 1px double black;
     font-size: 16px;
     background: white;
@@ -126,14 +126,14 @@ header .logo {
     cursor: pointer;
 }
 
-.cta .cta-text button:hover {
+.action .aText button:hover {
     background: black;
     color: white;
 }
 
 /* Main Content Styles */
 
-.main-content {
+.offers {
    border-top: 2px solid black; 
    border-bottom: 2px solid black;
    margin: 75px 0 35px 0;
@@ -142,22 +142,22 @@ header .logo {
    line-height: 18px;
 }
 
-.main-content .top-content {
+.offers .content1 {
     display: flex;
     justify-content: space-around;
 }
 
-.main-content .middle-img {
+.offers .middle-img {
     display: block;
     margin: 30px auto;
 }
 
-.main-content .bottom-content {
+.offers .content2 {
     display: flex;
     justify-content: space-around;
 }
 
-.main-content .bottom-content p {
+.offers .content2 p {
     padding-right: 20px;
 }
 
@@ -196,23 +196,23 @@ footer {
         margin: 30px auto 0;
     }
 
-    .cta {
+    .action {
         justify-content: center;
     }
     
-    .cta .cta-text {
+    .action .aText {
         margin: 0;
     }
 
-    .cta img {
+    .action img {
         display: none;
     }
 
-    .main-content .middle-img {
+    .offers .middle-img {
        width: 100%;
     }
 
-    .main-content {
+    .offers {
        margin: 75px 20px 35px;
     }
 
@@ -267,23 +267,23 @@ footer {
         margin: 20px 0;
     }
 
-    .cta {
+    .action {
         margin-top: 50px;
         flex-flow: column;
         align-items: center;
     }
 
-    .cta img {
+    .action img {
         max-width: 80%;
     }
 
-    .main-content .top-content {
+    .offers .top-content {
         justify-content: space-around;
         flex-direction: column;
         height: 300px;
     }
 
-    .main-content .bottom-content {
+    .offers .bottom-content {
         flex-wrap: wrap;
         align-content: space-between;
         height: 440px;
